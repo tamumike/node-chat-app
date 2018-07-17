@@ -12,5 +12,13 @@ socket.on('newMessage', (msg) => {
   console.log('New message: ', msg);
 });
 
+// socket.on('welcomeMsg', (msg) => {
+//   console.log(msg);
+// });
+//
+// socket.on('userJoined', (msg) => {
+//   console.log(msg);
+// });
+
 
 // newMessage, createMessage
