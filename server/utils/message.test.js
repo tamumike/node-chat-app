@@ -10,7 +10,7 @@ describe('generateMessage', () => {
     var message = generateMessage(from, text);
 
     expect(typeof message.createdAt).toBe('number');
-    expect(message).toMatchObject({from, text});
+    expect(message).toInclude({from, text});
   });
 });
 
